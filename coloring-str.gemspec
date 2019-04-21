@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ishihata@33i.co.jp"]
 
   spec.summary       = %q{I would like to make my life more colorful}
-  spec.description   = %q{I would like to make my life more colorful}
+  spec.description   = %q{}
   spec.homepage      = 'https://github.com/pekepek/coloring-str'
   spec.license       = "MIT"
 
@@ -37,4 +37,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+
+  spec.add_dependency 'io-console'
 end

@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "coloring/str"
+
+Coloring::Str::Editor.new.start
